@@ -223,7 +223,7 @@ cd free-claude-code &amp;&amp; cp .env.example .env
 
       <div class="model-wrap">
         <button class="model-btn" id="model-btn" onclick="toggleModelDrop()">
-          <span id="model-label-display">Sonnet 3.5</span>
+          <span id="model-label-display">kimi-k2-instruct</span>
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"/></svg>
         </button>
 
@@ -233,24 +233,24 @@ cd free-claude-code &amp;&amp; cp .env.example .env
             <button class="drop-item" onclick="selectModel('claude-3-5-sonnet-20241022','Sonnet 3.5','Balanced performance','claude-3-5-sonnet-20241022')">
               <div class="drop-item-icon drop-icon-default">✦</div>
               <div class="drop-item-body">
-                <span class="drop-item-name">Sonnet 3.5</span>
-                <span class="drop-item-id">claude-3-5-sonnet-20241022</span>
+                <span class="drop-item-name">Kimi-k2</span>
+                <span class="drop-item-id">nvidia_nim/moonshotai/kimi-k2-instruct</span>
               </div>
               <span class="drop-badge active">Default</span>
             </button>
             <button class="drop-item" onclick="selectModel('claude-3-opus-20240229','Opus','Most capable','claude-3-opus-20240229')">
               <div class="drop-item-icon drop-icon-power">◈</div>
               <div class="drop-item-body">
-                <span class="drop-item-name">Opus</span>
-                <span class="drop-item-id">claude-3-opus-20240229</span>
+                <span class="drop-item-name">Qwen3-coder</span>
+                <span class="drop-item-id">nvidia_nim/qwen/qwen3-coder-480b-a35b-instruct</span>
               </div>
               <span class="drop-badge power">Power</span>
             </button>
             <button class="drop-item" onclick="selectModel('claude-3-5-haiku-20241022','Haiku 3.5','Newer fast model','claude-3-5-haiku-20241022')">
               <div class="drop-item-icon drop-icon-fast">⚡</div>
               <div class="drop-item-body">
-                <span class="drop-item-name">Haiku 3.5</span>
-                <span class="drop-item-id">claude-3-5-haiku-20241022</span>
+                <span class="drop-item-name">Gemma-3n-e2b-it</span>
+                <span class="drop-item-id">nvidia_nim/google/gemma-3n-e2b-it</span>
               </div>
             </button>
           </div>
